@@ -48,7 +48,7 @@ if env.get('UPDATE_PACKAGES', 'False').lower() == 'true':
     scall("pip install " + ' '.join(packages), shell=True)
 ## Update Packages ----
 
-UPSTREAM_REPO = env.get('UPSTREAM_REPO', "https://github.com/SilentDemonSD/Tele-LeechX")
+UPSTREAM_REPO = env.get('UPSTREAM_REPO', "https://github.com/Rajbhaiya/LeechX")
 UPSTREAM_BRANCH = env.get('UPSTREAM_BRANCH', "h-code")
 try:
     if len(UPSTREAM_REPO) == 0:
